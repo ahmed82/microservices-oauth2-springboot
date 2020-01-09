@@ -13,5 +13,5 @@ security:
       client-id: vue
       client-secret: pin
       access-token-validity-seconds: 3600
-      authorized-grant-types: CLIENT_CREDENTIALS,PASSWORD,AUTHORIZATION_CODE,REFRESH_TOKEN
+      authorized-grant-types: CLIENT_CREDENTIALS,AUTHORIZATION_CODE,password,REFRESH_TOKEN
       scope: READ,WRITE
