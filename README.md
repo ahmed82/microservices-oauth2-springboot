@@ -1,6 +1,8 @@
 ## OAuth2
 
-### Authorization server
+### Authorization server Only
+
+Branch has all the configuration 
 
 Access the server by default link:
 
