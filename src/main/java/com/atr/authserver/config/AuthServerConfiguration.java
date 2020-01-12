@@ -28,7 +28,7 @@ public class AuthServerConfiguration extends WebSecurityConfigurerAdapter implem
 	@Override
 	public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
 		// TODO Auto-generated method stub
-		//  security.checkTokenAccess("permitAll()");
+		security.checkTokenAccess("permitAll()");
 	}
 
 	@Override
